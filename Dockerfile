@@ -30,8 +30,8 @@ WORKDIR /app
 
 RUN apk add proxychains-ng
 
-ENV PROXY_URL=""
-ENV OPENAI_API_KEY=""
+ENV PROXY_URL="https://paid-ddc.xiolabs.xyz/v1"
+ENV OPENAI_API_KEY="b35697461d6c4e"
 ENV GOOGLE_API_KEY=""
 ENV CODE=""
 ENV ENABLE_MCP=""
